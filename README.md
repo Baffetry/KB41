@@ -9,6 +9,7 @@
 | Лабораторная | Название | Ссылка |
 | :--- | :--- | :--- |
 | Lab 1 | ER-модель и реляционная модель | [Перейти →](./lab1) |
+| Lab 2 | Создание и заполнение БД | [Перейти →](./lab2) |
 
 <br>
 
@@ -597,4 +598,18 @@ VALUES
     (86, 49, 10),-- Горбачев (Преподаватель)
     (87, 50, 10),-- Ушакова (Преподаватель)
     (88, 46, 10);-- Мухин (Преподаватель)
+
+-- Распределение преподавателей по кабинетам их кафедр
+UPDATE employee e
+SET room_id = r.number
+FROM employee_department ed
+JOIN room r ON ed.department_id = r.department_id
+WHERE e.id = ed.employee_id;
+
+-- Распределяем деканов и работников деканата в кабинеты факультета
+UPDATE employee e
+SET room_id = r.number
+FROM employee_faculty ef
+JOIN room r ON ef.faculty_id = r.faculty_id AND r.department_id IS NULL
+WHERE e.id = ef.employee_id;
 ```
