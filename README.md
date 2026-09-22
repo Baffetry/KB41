@@ -65,8 +65,6 @@
 ### 🍇 Диаграмма
 ![Diagram](https://github.com/Baffetry/KB41/blob/main/lab2/diagram.png)
 
-### 🔎 Пример заполнения таблицы сотрудников
-![Example](https://github.com/Baffetry/KB41/blob/main/lab2/employee_call.png)
 
 ### 👾 Скрипт создания и заполнения таблиц
 ```
