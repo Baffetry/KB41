@@ -60,13 +60,13 @@
 - заполнить все таблицы адекватной информацией (не меньше 10 записей в таблицах, наличие примеров для связей типа 1:M)
 
 ### 🏓 Таблицы:
-![Tables]()
+![Tables](https://github.com/Baffetry/KB41/blob/main/lab2/tables.png)
 
 ### 🍇 Диаграмма
-![Diagram]()
+![Diagram](https://github.com/Baffetry/KB41/blob/main/lab2/diagram.png)
 
 ### 🔎 Пример заполнения таблицы сотрудников
-![Example]()
+![Example](https://github.com/Baffetry/KB41/blob/main/lab2/employee_call.png)
 
 ### 👾 Скрипт создания и заполнения таблиц
 ```
